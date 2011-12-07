@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2011 by Your Company
+
+
+# these should not be edited
+name: tvout
+moduleid: com.tvout
+guid: 48d45038-79f4-41ae-8808-d6ac203fe5e6
+platform: iphone
+minsdk: 1.8.0.v20111114103905
