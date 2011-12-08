@@ -1,5 +1,5 @@
-Titanium module for mirroring your screen via tv out 
-====================================================
+Titanium module for iPhone for mirroring your screen via tv out 
+===============================================================
 
 This project adds functionality to the project of the TVOutManager of Rob Terell. Many thanks go to him and his project. 
 
@@ -11,6 +11,10 @@ Install
 For using and installation you need not more than the zip file. 
 Install it this way:
 cp com.tvout-iphone-0.1.zip /Library/Application\ Support/Titanium/
+Don’t forget to add this in your tiapp.xml, clean your build and rebuild:
+    <modules>
+        <module platform="iphone" version="0.1">com.tvout</module>
+    </modules>
 
 Usage
 -----
